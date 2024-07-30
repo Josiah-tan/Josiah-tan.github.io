@@ -119,10 +119,10 @@ var AutoTyping = (function (e) {
 ]).default;
 
 
-const exampleText = ['Developer', 'Designer', 'Author'];
+const exampleText = ['Vision\nScience\nStudent', 'musician', 'craftsperson'];
 const exampleTyping = new AutoTyping('#text', exampleText, {
-    typeSpeed: 100,
-    deleteSpeed: 100,
+    typeSpeed: 50,
+    deleteSpeed: 20,
     waitBeforeDelete: 2000,
     waitBetweenWords: 500,
 });
