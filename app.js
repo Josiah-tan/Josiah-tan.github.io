@@ -19,3 +19,9 @@ hLinks.forEach(link=>{
 moon.addEventListener("click", ()=>{
   body.classList.toggle("dark")
 })
+
+
+function copyUsername() {
+	navigator.clipboard.writeText('spaghoooooot')
+	alert("copied username to clipboard, please send me a friend request on discord!")
+}
