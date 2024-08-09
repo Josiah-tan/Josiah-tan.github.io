@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tiffanynnt.github.io/sitemap.xml
